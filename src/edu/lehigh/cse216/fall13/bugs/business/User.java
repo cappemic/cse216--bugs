@@ -5,7 +5,7 @@ package edu.lehigh.cse216.fall13.bugs.business;
  * 
  * 
  * 
- * /
+ */
 
 public class User{
 
@@ -19,7 +19,7 @@ public class User{
      * @param firstName String of users first name
      * @param lastName	String of users last name
      * @param userID 	Should be a number ID
-     * /
+     */
     public User(String firstName, String lastName, int userID){
 	this.firstName = firstName;
 	this.lastName = lastName;
@@ -28,21 +28,21 @@ public class User{
 
     /**
      * Returns the first name of the user in the form of a String
-     * /
+     */
     public String getFirstName(){
 	return firstName;
     }
 
     /**
      * Returns the last name of the user in the form of a String
-     * /
+     */
     public String getLastName(){
 	return lastName;
     }
 
     /**
      * Returns and int of the user's ID'
-     * /
+     */
     public int getUserID(){
 	return userID;
     }
